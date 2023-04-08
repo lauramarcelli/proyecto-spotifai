@@ -6,17 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @font-face{
-            font-family: gothamCircular;
-            src: url(font/GothamBook.ttf);
-        }
-        p{
-           font-family: gothamCircular
-        }
-        h2{
-           font-family: gothamCircular
-        }
-        h3{
-           font-family: gothamCircular
+            font-family: gothamCircularB;
+            src: url(font/Gotham-Bold.otf);
         }
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -26,8 +17,8 @@
 <body>
     <header class="w-full bg-slate-950 p-2">
         <nav class="flex justify-between items-center w-full">
-            <img src="spotify-xxl.png" alt="spotifai-logo-blanco"class="flex m-auto h-10 justify-start">
-            <h2 class="absolute left-60  flex text-2xl font-extrabold text-white justify-start">Spotifai</h2>
+            <img src="spotify-xxl.png" alt="spotifai-logo-blanco"class="flex m-auto h-10 justify-start absolute left-48">
+            <h2 class="absolute left-60  flex text-2xl font-bold text-white justify-start">Spotifai</h2>
             <ul class="flex items-center justify-end w-1/2 m-auto">
                 <li class="m-5 font-bold text-white hover:text-[#22c55e]">
                     <a href="#">Premium</a>
@@ -51,15 +42,21 @@
         </nav>
     </header>
     <main>
-        <section class="flex flex-col justify-center items-left h-screen bg-[#2563eb]">
-            <div class="mx-36">
-                <h2 class="text-5xl font-bold text-[#f8fafc] mb-8">Get Premium free for 1 month</h2>
-                <h3 class="text-3xl font-normal text-[#f8fafc]">Only $9.99/month after. Cancel anytime.</h3>
-                <button class="w-28 my-8 h-12 text-white bg-[#0a0a0a] rounded-full m-auto hover:scale-105">GET STARTED</button>
-                <button class="w-28 my-8 h-12 text-white bg-[#2563eb] border-2 rounded-full m-auto hover:bg-[#1e40af] hover:scale-105">VIEW PLANS</button>
-                <p class="text-xs text-white">Terms and conditions apply. 1 month free not available for users who have already tried Premium.</p>
-            </div>
-        
+        <section class="flex flex-col justify-center items-left h-2/3 bg-[#1d75de]">
+            <div class="mx-56 my-36 bg-[#1d75de]">
+                <h2 class="text-4xl font-bold text-[#f8fafc] mb-8">Get Premium free for 1 month</h2>
+                <h3 class="text-2xl text-[#f8fafc]">Only $9.99/month after. Cancel anytime.</h3>
+                <button class="w-40 my-8 px-30 py-3 justify-center text-center font-bold text-white bg-[#0a0a0a] rounded-full m-2 hover:scale-105">GET STARTED</button>
+                <button class="w-40 my-8 px-30 py-3 justify-center text-center font-bold text-white bg-[#1d75de] border-2 rounded-full m-1,5 hover:bg-[#1e40af] hover:scale-105">VIEW PLANS</button>
+                <p class="text-xs text-white"><u>Terms and conditions apply.</u> 1 month free not available for users who have already tried Premium.</p>
+            </div>        
+        </section>
+
+        <section class="flex flex-col justify-center items-left h-1/4 bg-[#ffffff]">
+            <div class="mx-36 bg-[#ffffff]">
+                <h2 class="text-4xl font-bold text-[#0a0a0a] justify-center text-center m-20">Why go Premium?</h2>
+               
+            </div>        
         </section>
     </main>
 </body>
